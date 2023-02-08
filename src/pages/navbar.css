@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding-left: 100px;
+    padding-right: 160px;
+    box-shadow: 1px 2px 3px grey;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 30px;
+    height: 29px;
+    width: 410px;
+    background-color:rgba(255, 255, 255, 0.884);
+    border-radius: 12px;
+    border: 1px black solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar input{
+   font-size: 17px;
+    width: 400px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  flex: 1;
+    
+}
+#logo1{
+    height: 50px;
+}
+body{
+    padding: 6px;
+    margin: 2px;
+}
+.shadow .main{
+    width: 100%;
+}
+.dropdown{
+    padding-left:5px;
+    margin-right: 10px;
+}
+.dropdown-option{
+    padding-top: 10px;
+    width: 50px;
+}
+.dropdown-option select{
+    width: 90px;
+    border: transparent;
+    border: 0;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.546);
+}
+
+.navbar_header{
+    padding-top: 8px;
+    display: flex; 
+    padding-bottom: 40px;  
+    
+}
+.shadow{
+    position: static;
+}
+.dropdown{
+    display: flex;
+}
+.nav-button{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 9px;
+}
+
+
+#btn1{
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100px;
+    margin-right: 13px;
+}
+#btn2{
+   padding: 8px;
+    background-color: rgba(0, 0, 0, 0.704);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 150px;
+}
+.phone-item{
+    display: flex;
+}
+.phone-icon i{
+    padding: 4px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.phone-no{
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+.phone-no p{
+    color: black;
+}
+.gift-icon i{
+   font-size: 23px;
+   padding-left: 14px;
+   padding-top: 12px;
+}
+
+
+
+
+/* --------------------------------------------COMPONENT PART CSS------------------------------------------- */
+
+
+.components a{
+   
+    padding: 25px;
+    padding-right: 10px;
+   font-weight: 530;
+   font-style:initial;
+    margin: 13px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.672);
+    position: relative;
+}
+
+/* .components a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:black;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+    top: 100%;
+    transition: 0.5s ease;
+
+}
+.components a:hover:after{
+    width: 100%;
+} */
+   
